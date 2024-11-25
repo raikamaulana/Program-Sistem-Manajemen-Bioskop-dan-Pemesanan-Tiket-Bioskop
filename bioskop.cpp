@@ -1042,7 +1042,7 @@ int main(){
                                     } else {
                                         vctTiket.erase(vctTiket.begin() + pilihan - 1);
                                     }
-                                    cout << "\Tiket ke-"<<" Telah Dihapus" << endl << endl;
+                                    cout << "\Tiket ke-"<< pilihan <<" Telah Dihapus" << endl << endl;
 
                                     do {
                                         cout << "||  Apakah ingin menghapus Tiket kembali? (y/n) : ";
